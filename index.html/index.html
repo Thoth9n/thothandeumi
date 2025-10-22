@@ -1,1 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me | Space Theme</title>
+  <style>
+    /* ----- GENERAL RESET ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0f;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(180deg, #111122 0%, #0a0a0f 100%);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    header p {
+      color: #aaa;
+      margin-top: 0.5rem;
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    /* ----- ABOUT SECTION ----- */
+    .about {
+      text-align: center;
+    }
+
+    .about img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid #444;
+    }
+
+    .about h2 {
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    .about p {
+      color: #ccc;
+      font-size: 1.1rem;
+    }
+
+    /* ----- GALLERY SECTION ----- */
+    .gallery {
+      margin-top: 4rem;
+    }
+
+    .gallery h2 {
+      text-align: center;
+      color: #fff;
+      margin-bottom: 2rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+    }
+
+    /* ----- FOOTER ----- */
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid #222;
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hello, I'm [Your Name]</h1>
+    <p>Welcome to my personal space-themed website</p>
+  </header>
+
+  <section class="about">
+    <img src="your-photo.jpg" alt="Your Photo">
+    <h2>About Me</h2>
+    <p>
+      I’m a passionate learner who loves technology, creativity, and the stars above. 
+      This website is a little piece of my universe — where I share who I am and what inspires me.
+    </p>
+  </section>
+
+  <section class="gallery">
+    <h2>My Space Gallery</h2>
+    <div class="gallery-grid">
+      <img src="space1.jpg" alt="Space Image 1">
+      <img src="space2.jpg" alt="Space Image 2">
+      <img src="space3.jpg" alt="Space Image 3">
+      <img src="space4.jpg" alt="Space Image 4">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 [Your Name]. Made with ❤️ and stardust.</p>
+  </footer>
+</body>
+</html>
 
